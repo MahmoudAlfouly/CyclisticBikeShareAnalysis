@@ -52,7 +52,7 @@ import seaborn as sns
 
 
 # Load the dataset (Cyclistic trips from the 1st quarter of 2019).
-df = pd.read_csv(r"C:\Users\mahmo\Downloads\DataFreelance\CyclisticData2019\ExtractedFiles\Divvy_Trips_2019_Q1\Divvy_Trips_2019_Q1.csv")
+df = pd.read_csv(r"CyclisticData\Divvy_Trips_2019_Q1.csv")
 
 
 # In[3]:
