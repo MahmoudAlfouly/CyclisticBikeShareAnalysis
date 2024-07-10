@@ -40,20 +40,20 @@ Converting casual riders to subscribers is crucial for Cyclistic as it provides 
 
 ## Key Insights
 
-1. **Trip Duration**: Most trips are relatively short, with a significant peak around a few hundred seconds. This suggests that the majority of users are using the bikes for short commutes or quick trips.
-2. **Trips Peak Times**: Most trips peak times are in accordance with commuting times (around nine a.m and five p.m).
-3. **User Types**: Most users are subscribers with over 300,000 subscribers. Customers are a minority.
-4. **Gender**: Most users are male, with more than 250,000 users. Females are a lot less than males, with just over 50,000 users. A proportion of the users have don't have data for 'gender' (missing values) as already calculated in the data cleaning segment.
-5. **Trips Weekly Distribution**: The number of trips taken by subscribers is almost stable throught week days (Monday to Friday) and then decreases in weekends (Saturday and Sunday), which would suggest commuting. On the other hand, customers trips were at their highest on weekends and less so on weekdays.
-6. **Trip Duration by User Type**: Customers (casual riders) trips take longer durations than members.
-7. **Weekly Trip Duration**: For subscribers, the average trip duration is almost stable in each day of the week. For customers, the day with the lenghtheist trips is Thursday.
-8. **Trip Count**: The majority of trips are from subscribers with 341906 trips. Customers took 23163 trips.
-9. **Top Stations**: For subscribers, the top stations (start and end) are: 'Clinton St & Washington Blvd', 'Clinton St & Madison St' and 'Canal St & Adams St'. While for customers, the top stations (start and end) are: 'Streeter Dr & Grand Ave', 'Lake Shore Dr & Monroe St', 'Millennium Park' & 'Shedd Aquarium'. These stations should be targeted with ads for customers to be converted to subscribers.
-10. **Trip Duration Distribution**: Customers take longer duration trips than Subscribers as most trips that are longer than 1500 seconds are taken by customers. On the other hand, most subscribers trips are less than 1000 seconds.
-11. **Missing Birthyear Data**: The 'Customer' data is missing a lot (about three quarters) of 'birthyear' data. The company should try to gather more birthyear data from customers.
-12. **Age Distribution**:Younger people are more likely to be 'Customer' while older people are more likely to be 'Subsciber'. Most people below thirty years are Customers. Most people older than sixty years are Subscibers.
-13. **Peak Trip Times by User Type**: Subscribers are most likely to take trips at the times of going to and leaving work (nine and five). Customers trips are usually between 10 am and 7 pm. They peak at around 3 pm.
-14. **Gender Participation**: Predominantly Male Subscribers. Low Female Participation in both usertypes. High Percentage of unknown gender among customers.
+1. **Trip Duration**: Most trips are short, with a peak around a few hundred seconds, suggesting usage for short commutes or quick trips.
+2. **Trips Peak Times**: Trips peak around commuting times (9 AM and 5 PM).
+3. **User Types**: Most users are subscribers (over 300,000), while customers are a minority.
+4. **Gender**: Most users are male (over 250,000), with a significant number of unknown gender entries.
+5. **Trips Weekly Distribution**: Subscriber trips are stable on weekdays and drop on weekends, indicating commuting patterns. Customer trips peak on weekends.
+6. **Trip Duration by User Type**: Casual riders take longer trips than subscribers.
+7. **Weekly Trip Duration**: Subscribers' average trip duration is stable, while customers' longest trips occur on Thursdays.
+8. **Trip Count**: Subscribers dominate with 341,906 trips compared to customers' 23,163 trips.
+9. **Top Stations**: Key stations for subscribers and customers differ, suggesting targeted advertising opportunities.
+10. **Trip Duration Distribution**: Longer trips are primarily by customers; subscribers' trips are generally shorter.
+11. **Missing Birthyear Data**: A significant portion of customer data lacks birthyear information.
+12. **Age Distribution**: Younger people are more likely to be customers, while older people are more likely to be subscribers.
+13. **Peak Trip Times by User Type**: Subscribers peak during commuting hours; customers peak at around 3 PM.
+14. **Gender Participation**: High male participation among subscribers; low female participation in both user types.
 
 ## Recommendations:
 
