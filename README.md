@@ -1,7 +1,7 @@
 # CyclisticBikeShareAnalysis
 
 ## Objective
-The objective of this project is to analyze Cyclistic bike share data from 2019 to identify trends and design marketing strategies aimed at converting casual riders into annual members.
+This project aims to analyze the Cyclistic bike share data to understand usage patterns and provide insights to increase the conversion of casual riders into subscribers.
 
 ## Dataset Description
 The dataset used for this analysis includes information about bike bike rides taken by Cyclistic customers and subscribers. Some columns are:
