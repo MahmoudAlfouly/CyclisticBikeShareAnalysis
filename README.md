@@ -11,6 +11,10 @@ The dataset used for this analysis includes information about bike bike rides ta
 4. 'usertype': Customer (casual rider) or Subscriber (annual member).
 5. 'gender', 'birthyear': demographic information about the rider.
 
+### Accessing The Dataset
+The dataset is too large to be included directly in this repository. You can download it from the following link:
+[Download Cyclistic Dataset](https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2019_Q1.zip)
+
 ## Importance of the Analysis:
 Converting casual riders to subscribers is crucial for Cyclistic as it provides a steady stream of revenue and enhances customer loyalty. By understanding the factors that influence casual riders' decisions, we can devise targeted marketing strategies to increase subscriptions.
 
