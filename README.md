@@ -25,7 +25,7 @@ Converting casual riders to subscribers is crucial for Cyclistic as it provides 
    - Loading the dataset.
    - Handling missing values.
    - Checking for duplicates.
-   - Converting data types to the appropriate ones, like converting 'tripduration' and 'birthyear'to numeric.
+   - Converting data types to the appropriate ones, like converting 'tripduration' to numeric.
 
 2. **Exploratory Data Analysis**
    - Summary statistics.
