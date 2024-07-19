@@ -33,13 +33,12 @@ Converting casual riders to subscribers is crucial for Cyclistic as it provides 
    - Analysis of trips by time of day, user type, gender, and start/end stations.
    - Getting insights from each analysis.
 
-3. **The More Specific Analysis**
-   - Proportion of trips by each uesr type in each day of the week and then the absolute number of trips by each user type in each day of the week.
+3. **Specific Analysis Based on User Types**
    - Distribution of trip duration by user type and the distribution of trip duration by user type in each day of the week.
-   - The number of trips by each user type.
+   - Peak hours for trips by user type.
+   - Proportion of trips by each uesr type in each day of the week and then the absolute number of trips by each user type in each day of the week.
    - The top start and end stations for each user type.
    - Age distribution by user type.
-   - Peak hours for trips by user type.
    - Gender distribution by user type.
 
 ## Key Insights
@@ -48,24 +47,23 @@ Converting casual riders to subscribers is crucial for Cyclistic as it provides 
 2. **Trips Peak Times**: Trips peak around commuting times (9 AM and 5 PM).
 3. **User Types**: Most users are subscribers (over 300,000), while customers are a minority.
 4. **Gender**: Most users are male (over 250,000), with a significant number of unknown gender entries.
-5. **Trips Weekly Distribution**: Subscriber trips are stable on weekdays and drop on weekends, indicating commuting patterns. Customer trips peak on weekends.
-6. **Trip Duration by User Type**: Casual riders take longer trips than subscribers.
+5. **Trip Duration by User Type**: Casual riders take longer trips than subscribers.
+6. **Trip Duration Distribution**: Longer trips are primarily by customers; subscribers' trips are generally shorter.
 7. **Weekly Trip Duration**: Subscribers' average trip duration is stable, while customers' longest trips occur on Thursdays.
-8. **Trip Count**: Subscribers dominate with 341,906 trips compared to customers' 23,163 trips.
-9. **Top Stations**: Key stations for subscribers and customers differ, suggesting targeted advertising opportunities.
-10. **Trip Duration Distribution**: Longer trips are primarily by customers; subscribers' trips are generally shorter.
+8. **Peak Trip Times by User Type**: Subscribers peak during commuting hours; customers peak at around 3 PM.
+9. **Trips Weekly Distribution**: Subscriber trips are stable on weekdays and drop on weekends, indicating commuting patterns. Customer trips peak on weekends.
+10. **Top Stations**: Key stations for subscribers and customers differ, suggesting targeted advertising opportunities.
 11. **Missing Birthyear Data**: A significant portion of customer data lacks birthyear information.
 12. **Age Distribution**: Younger people are more likely to be customers, while older people are more likely to be subscribers.
-13. **Peak Trip Times by User Type**: Subscribers peak during commuting hours; customers peak at around 3 PM.
-14. **Gender Participation**: High male participation among subscribers; low female participation in both user types.
+13. **Gender Participation**: High male participation among subscribers; low female participation in both user types.
 
 ## Recommendations:
 
 1. Weekend Advertising: Focus advertising efforts on weekends (Saturdays and Sundays), as these are the peak days for customer trips.
-2. Target Key Stations: Place ads at top customer start and end stations such as 'Streeter Dr & Grand Ave', 'Lake Shore Dr & Monroe St', and 'Shedd Aquarium'.
-3. Highlight Subscription Benefits: Emphasize the financial advantages of subscribing, particularly for users who take longer trips.
-4. Youth-Centric Campaigns: Target younger audiences, especially those under thirty, as they form the majority of the customer base.
-5. Peak Hour Advertising: Schedule ads around 3 p.m., which is the peak time for customer trips.
+2. Peak Hour Advertising: Schedule ads around 3 p.m., which is the peak time for customer trips.
+3. Target Key Stations: Place ads at top customer start and end stations such as 'Streeter Dr & Grand Ave', 'Lake Shore Dr & Monroe St', and 'Shedd Aquarium'.
+4. Highlight Subscription Benefits: Emphasize the financial advantages of subscribing, particularly for users who take longer trips.
+5. Youth-Centric Campaigns: Target younger audiences, especially those under thirty, as they form the majority of the customer base.
 6. Data Collection Improvement: Implement strategies to collect comprehensive gender and birthyear data from customers to enhance future analyses.
 
 ## How to Run the Code
